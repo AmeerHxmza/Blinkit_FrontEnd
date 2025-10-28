@@ -5,8 +5,20 @@
 }
 
 .main{
-    width: 1170px;
-    height: 500px;
-    background-color: red;
+    max-width: 1170px;
+    text-align: center;
     margin: auto;
+    border: 1px solid #ccc;
+}
+.main h1{
+    color: red;
+}
+
+@media only screen and (min-width:200px) and (max-width:575px){
+    .main{
+        border: 5px solid green;
+    }
+    .main h1{
+        color: blue;
+    }
 }

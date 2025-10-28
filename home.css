@@ -1,0 +1,15 @@
+.bannerSection{
+    max-width: 1280px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bannerItem{
+    flex-basis: 23%;
+    margin: 1%;
+}
+
+.bannerItem img{
+    width: 100%;
+}

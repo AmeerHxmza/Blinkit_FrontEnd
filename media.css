@@ -1,0 +1,11 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+  .bannerSection {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width:575px) and (max-width:991px) {
+  .bannerItem {
+    flex-basis: 48%;
+  }
+}
