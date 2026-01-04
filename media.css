@@ -24,6 +24,34 @@
   .searchBox button{
     padding:10px;
   }
+
+  .headerBtn{
+    position:fixed;
+    background-color: #fff;
+    justify-content: center;
+    bottom:0px;
+    width: 100%;
+    margin-right: 0%;
+  }
  
+  .bannerSection{
+    display: none;
+  }
+
+  .orderBanner{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .categoryItems{
+  flex-basis: 25%;
+  }
+
+  .productSection{
+    padding: 30px 10px;
+  }
+
+  .productItems{
+    flex-basis: 49%;
+  }
 }
 

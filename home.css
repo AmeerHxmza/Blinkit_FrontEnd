@@ -73,3 +73,73 @@ header{
   border-radius: 5px;
   font-weight: bold;
 }
+
+/* Banner Section Style */
+.bannerSection{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.bannerSection img{
+  width: 100%;
+  height: auto;
+}
+
+/* Order Banner Style */
+.orderBanner{
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+}
+.orderBannerItems{
+  flex-basis: 27%;
+  margin:1%;
+}
+.orderBannerItems img{
+  width: 100%;
+  height: auto;
+}
+
+.categorySection{
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+} 
+.categoryItems{
+  flex-basis: 10%;
+}
+.categoryItems img{
+  width: 100%;
+}
+
+.headingRow h2{
+  color:green;
+  font-size: 22px;
+}
+.headingRow a{
+  color:green;
+font-size: 18px;
+}
+
+.productSection{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.productRow{
+  display: flex;
+  width:100%;
+} 
+.productItems{
+  flex-basis: 15%;
+  margin:1%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px 10px #ccc;
+}
+.productItems img{
+  width: 100%;
+  height: auto;
+}
